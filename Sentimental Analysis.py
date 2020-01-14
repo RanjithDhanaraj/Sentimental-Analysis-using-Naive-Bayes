@@ -1,9 +1,3 @@
-# http://andybromberg.com/sentiment-analysis-python/
-# Andy Bromberg's Simple Sentiment Analysis System
-# Uses data from Pang & Lee (2005)
-# Uses a Naive Bayes Classifier Train the System
-#  NB Updated 2016 for package changes around scores
-
 import re, math, collections, itertools, sys, os
 import nltk, nltk.classify.util, nltk.metrics
 from nltk.classify import NaiveBayesClassifier
